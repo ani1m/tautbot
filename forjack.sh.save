@@ -1,0 +1,4 @@
+docker run -d --name tautbot \
+	-e accesstoken="xoxb-141923575473-86zvgMXh366AXFe217gJrkbW" \
+	-e slackkey="xoxb-143393654422-uWao8smSPWATuaWWvWZd39cT" \
+	speaktoit/api-ai-slack-bot

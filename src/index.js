@@ -73,7 +73,7 @@ function isDefined(obj) {
     return obj != null;
 }
 
-controller.hears(['.*'], ['direct_message', 'direct_mention'], (bot, message) => {
+controller.hears(['.*'], ['direct_message', 'direct_mention'], (bot, message) => { // bot listen methods
     try {
         if (message.type == 'message') {
             if (message.user == bot.identity.id) {
